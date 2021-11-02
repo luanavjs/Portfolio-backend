@@ -1,8 +1,20 @@
-[{
-    "nombre":"Luana",
-    "apellido":"Vallejos",
-    "edad":"24",
-    "pais":"Argentina",
-    "ocupacion":"Estudiante",
-    "descripcion":"undefined"
-}]
+[   
+    {
+        "id":"1",
+        "nombre":"Luana",
+        "apellido":"vallejos",
+        "edad":"24",
+        "pais":"Argentina",
+        "ocupacion":"Estudiante",
+        "descripcion":"Soy estudiante de informática y desarrollo web. Recientemente terminé un curso de Desarrollo Fullstack en Media Chicas. Me gustan el manga, anime, peliculas y videojuegos."
+    },
+    {   
+        "id":"2",
+        "nombre":"Marianela",
+        "apellido":"Cortina",
+        "edad":"",
+        "pais":"Argentina",
+        "ocupacion":"Pasante",
+        "descripcion":"Responsable,etc"
+    }
+]

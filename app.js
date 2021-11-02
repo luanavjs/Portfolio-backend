@@ -26,6 +26,9 @@ app.listen(process.env.PORT || 3000)*/
 
 const {
     profileController,
+    profileIdController,
+    profileFilterController,
+    profileSaveController,
 } = require('./controller')
 
 app.get('/',(req,res)=>{
@@ -39,6 +42,19 @@ app.get('/',(req,res)=>{
 app.get('/profile',[
     profileController
 ])
+
+app.get('/profile/:id',[
+    profileIdController
+])
+
+app.get('/profile2',[
+    profileFilterController
+])
+
+app.post('/profile',[
+    profileSaveController
+])
+
 
 app.listen(process.env.PORT || 3000)
 
