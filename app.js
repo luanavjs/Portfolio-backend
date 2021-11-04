@@ -1,10 +1,17 @@
 const express = require('express');
+const cors = require('cors');
+
 var app = express();
 
+app.use(cors());
 app.use(express.static(__dirname + '/public'));
+app.use(express.json())
 app.get('/',(req,res)=>{
     res.send('Hola express')
 });
+
+//Conexion a base de datos
+
 
 /*app.get('/api',(req,res)=>{
     res.send({
@@ -55,6 +62,9 @@ app.post('/profile',[
     profileSaveController
 ])
 
+const port = process.env.PORT || 8080
 
-app.listen(process.env.PORT || 3000)
+app.listen(port,()=>{
+    console.log(`Server on: ${port}`)
+})
 
