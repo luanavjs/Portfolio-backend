@@ -4,6 +4,7 @@ const profileFilterController = require('./profileFilter')
 const profileSaveController = require('./profileSave')
 const projectsController = require('./projects')
 const projectsIdController = require('./projectsID')
+const projectsSaveController = require('./projectsSave')
 
 module.exports = {
     profileController,
@@ -11,5 +12,6 @@ module.exports = {
     profileFilterController,
     profileSaveController,
     projectsController,
-    projectsIdController
+    projectsIdController,
+    projectsSaveController
 }
