@@ -2,11 +2,11 @@
     {
         "id":"1",
         "nombre":"Luana",
-        "apellido":"vallejos",
+        "apellido":"Vallejos",
         "edad":"24",
         "pais":"Argentina",
         "ocupacion":"Estudiante",
-        "descripcion":"Soy estudiante de informática y desarrollo web. Recientemente terminé un curso de Desarrollo Fullstack en Media Chicas. Me gustan el manga, anime, peliculas y videojuegos."
+        "descripcion":"Estudiante de informática y desarrollo web. Recientemente terminé un curso de Desarrollo Fullstack Javascript en Media Chicas. Me gustan el manga, anime, peliculas y videojuegos."
     },
     {   
         "id":"2",
